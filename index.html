@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style_login.css">
+
 </head>
 <body>
-      <div>
-         <ul>
-            <li><a href="html/tablas.html"><h2>ir a tablas</h2></a></li>
-            <li><a href="html/form.html"><h2>ir a form</h2></a></li>
-            <li><a href="html/text.html"><h2>ir a texto</h2></a></li>
-            <li><a href="html/agrupacion.html"><h2>ir a agrupacion</h2></a></li>
-            <li><a href="html/multimedia.html"><h2>ir a multimedia</h2></a></li>
-            <li><a href="html/semantica.html"><h2>ir a semantica</h2></a></li>
-            <li><a href="html/estilos.html"><h2>ir a estilos</h2></a></li>
-            <li><a href="html/flexbox.html"><h2>ir a flexbox</h2></a></li>
-            
-            
-         </ul>
-      </div>
-    
+    <div class="background"></div>
+    <div class="centering">
+        <form action=""class="my_form">
+            <div class="login_welcome">
+                <img src="./multimedia/imagenes/astronauta.png" width="90px" alt="login">
+                <h1>Iniciar Sesion</h1>
+            </div>
+            <div class="text_field">
+                <label for="email">Email</label>
+                <input type="email" id="email" aria-label="Email" placeholder="Ingrese su email" required>
+                <img src="./multimedia/imagenes/email.png" width="20px" alt="Email Icon" title="Email Icon">
+            </div>
+            <div class="text_field">
+                <label for="">Password</label>
+                <input type="password" id="password" aria-label="Password" placeholder="Ingrese su contraseña" required>
+                <img src="./multimedia/imagenes/password.png" width="20px" alt="Password Icon" title="Password Icon">
+            </div>
+            <input type="submit" class="my_form_button" value="Login">
+            <div class="my_form_actions">
+                <div class="my_form_row">
+                    <span>¿Olvidaste tu contraseña?</span>
+                    <a href="#" title="Recuperar contraseña">Recuperar contraseña</a>
+                </div>
+                <div class="my_form_signup">
+                    <a href="#" title="Crear cuenta">Crear cuenta</a>
+                </div>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
